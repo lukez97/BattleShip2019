@@ -4,10 +4,12 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\EndingGameController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\GameLogic.cs">
     <Files>
-      <File FileName="src\EndingGameController.cs" Line="1" Column="1" />
+      <File FileName="src\EndingGameController.cs" Line="41" Column="18" />
       <File FileName="src\DeploymentController.cs" Line="141" Column="8" />
+      <File FileName="src\GameController.cs" Line="1" Column="1" />
+      <File FileName="src\GameLogic.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />
