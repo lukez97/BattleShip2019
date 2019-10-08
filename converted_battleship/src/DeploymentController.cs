@@ -122,7 +122,7 @@ static class DeploymentController
 	/// </summary>
 	public static void DrawDeployment()
 	{
-		UtilityFunctionsDrawField(GameController.HumanPlayer.PlayerGrid, GameController.HumanPlayer, true);
+		UtilityFunctions.DrawField(GameController.HumanPlayer.PlayerGrid, GameController.HumanPlayer, true);
 
 		//Draw the Left/Right and Up/Down buttons
 		if (_currentDirection == Direction.LeftRight) {
