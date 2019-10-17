@@ -245,13 +245,17 @@ static class MenuController
 		switch (menu) {
 			case MAIN_MENU:
 				PerformMainMenuAction(button);
+				//sound here
 				break;
 			case SETUP_MENU:
 				PerformSetupMenuAction(button);
+				//sound here	
 				break;
 			case GAME_MENU:
 				PerformGameMenuAction(button);
+				//sound here
 				break;
+
 		}
 	}
 
@@ -264,12 +268,15 @@ static class MenuController
 		switch (button) {
 			case MAIN_MENU_PLAY_BUTTON:
 				GameController.StartGame();
+				//sound here
 				break;
 			case MAIN_MENU_SETUP_BUTTON:
 				GameController.AddNewState(GameState.AlteringSettings);
+				//sound here
 				break;
 			case MAIN_MENU_TOP_SCORES_BUTTON:
 				GameController.AddNewState(GameState.ViewingHighScores);
+				//sound here
 				break;
 			case MAIN_MENU_QUIT_BUTTON:
 				GameController.EndCurrentState();
@@ -284,11 +291,11 @@ static class MenuController
 	private static void PerformSetupMenuAction(int button)
 	{
 		switch (button) {
-			case SETUP_MENU_EASY_BUTTON:
-				GameController.SetDifficulty(AIOption.Hard);
-				break;
+			//case SETUP_MENU_EASY_BUTTON:
+			//	GameController.SetDifficulty(AIOption.Hard);
+			//	break;
 			case SETUP_MENU_MEDIUM_BUTTON:
-				GameController.SetDifficulty(AIOption.Hard);
+				GameController.SetDifficulty(AIOption.Medium);
 				break;
 			case SETUP_MENU_HARD_BUTTON:
 				GameController.SetDifficulty(AIOption.Hard);
