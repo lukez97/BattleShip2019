@@ -21,7 +21,7 @@ public static class GameResources
 	private static void LoadImages()
 	{
 		//Backgrounds
-		NewImage("Menu", "main_page.jpg");
+		NewImage("Menu", "battle.jpg");
 		NewImage("Discovery", "discover.jpg");
 		NewImage("Deploy", "deploy.jpg");
 
