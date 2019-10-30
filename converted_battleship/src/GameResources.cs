@@ -16,6 +16,7 @@ public static class GameResources
 		NewFont("Courier", "cour.ttf", 14);
 		NewFont("CourierSmall", "cour.ttf", 8);
 		NewFont("Menu", "cour_bold.ttf", 12);
+		NewFont ("hey", "ffaccess.ttf", 12);
 	}
 
 	private static void LoadImages()
