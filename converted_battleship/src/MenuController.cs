@@ -205,7 +205,7 @@ static class MenuController
 			SwinGame.DrawTextLines(_menuStructure[menu][i], MENU_COLOR, Color.Transparent, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, btnLeft + TEXT_OFFSET, btnTop + TEXT_OFFSET, BUTTON_WIDTH, BUTTON_HEIGHT);
 
 			if (IsMouseOverMenu(i, level, xOffset)) {
-				Audio.PlaySoundEffect (GameResources.GameSound ("Pss"));
+				Audio.PlaySoundEffect (GameResources.GameSound ("Menu"));
 				SwinGame.DrawTextLines (_menuStructure [menu] [i], MENU_COLOR, Color.Black, GameResources.GameFont ("Menu"), FontAlignment.AlignCenter, btnLeft + TEXT_OFFSET, btnTop + TEXT_OFFSET, BUTTON_WIDTH, BUTTON_HEIGHT);
 			}
 		}

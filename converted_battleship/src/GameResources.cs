@@ -54,7 +54,7 @@ public static class GameResources
 		NewSound("Miss", "watershot.wav");
 		NewSound("Winner", "winner.wav");
 		NewSound("Lose", "lose.wav");
-		NewSound ("Pss", "pss.wav");
+		NewSound ("Menu", "menu.wav");
 	}
 
 	private static void LoadMusic()
