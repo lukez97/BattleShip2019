@@ -207,6 +207,13 @@ static class MenuController
 			if (IsMouseOverMenu(i, level, xOffset)) {
 				Audio.PlaySoundEffect (GameResources.GameSound ("Menu"));
 				SwinGame.DrawTextLines (_menuStructure [menu] [i], MENU_COLOR, Color.Black, GameResources.GameFont ("Menu"), FontAlignment.AlignCenter, btnLeft + TEXT_OFFSET, btnTop + TEXT_OFFSET, BUTTON_WIDTH, BUTTON_HEIGHT);
+				if (Audio.SoundEffectPlaying (GameResources.GameSound ("Menu"))) {
+					SwinGame.Delay (5);
+					Audio.StopSoundEffect (GameResources.GameSound ("Menu"));
+					SwinGame.Delay (1000);
+
+				}
+					
 			}
 		}
 	}
