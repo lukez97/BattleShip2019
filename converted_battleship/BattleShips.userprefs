@@ -9,7 +9,7 @@
       <File FileName="src\EndingGameController.cs" Line="5" Column="34" />
       <File FileName="src\DeploymentController.cs" Line="93" Column="16" />
       <File FileName="src\GameLogic.cs" Line="9" Column="23" />
-      <File FileName="src\GameResources.cs" Line="28" Column="15" />
+      <File FileName="src\GameResources.cs" Line="216" Column="48" />
       <File FileName="src\UtilityFunctions.cs" Line="211" Column="30" />
       <File FileName="src\MenuController.cs" Line="148" Column="2" />
       <File FileName="src\DiscoveryController.cs" Line="1" Column="1" />
@@ -18,6 +18,8 @@
       <File FileName="src\Model\AIOption.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIHardPlayer.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIMediumPlayer.cs" Line="32" Column="2" />
+      <File FileName="src\GameState.cs" Line="1" Column="1" />
+      <File FileName="src\HighScoreController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />

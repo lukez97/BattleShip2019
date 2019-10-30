@@ -245,17 +245,17 @@ static class MenuController
 		switch (menu) {
 			case MAIN_MENU:
 				PerformMainMenuAction(button);
-                Audio.PlaySoundEffect(GameResources.GameSound("Hit"));
+                Audio.PlaySoundEffect(GameResources.GameSound("Miss"));
                 //sound here
                 break;
 			case SETUP_MENU:
 				PerformSetupMenuAction(button);
-                Audio.PlaySoundEffect(GameResources.GameSound("Hit"));
+                Audio.PlaySoundEffect(GameResources.GameSound("Miss"));
                 //sound here	
                 break;
 			case GAME_MENU:
 				PerformGameMenuAction(button);
-                Audio.PlaySoundEffect(GameResources.GameSound("Hit"));
+                Audio.PlaySoundEffect(GameResources.GameSound("Miss"));
                 //sound here
                 break;
 

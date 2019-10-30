@@ -15,13 +15,13 @@ public static class GameResources
 		NewFont("ArialLarge", "arial.ttf", 80);
 		NewFont("Courier", "cour.ttf", 14);
 		NewFont("CourierSmall", "cour.ttf", 8);
-		NewFont("Menu", "ffaccess.ttf", 8);
+		NewFont("Menu", "cour.ttf", 12);
 	}
 
 	private static void LoadImages()
 	{
 		//Backgrounds
-		NewImage("Menu", "battle.jpg");
+		NewImage("Menu", "battlefinal.jpg");
 		NewImage("Discovery", "discover.jpg");
 		NewImage("Deploy", "deploy.jpg");
 
