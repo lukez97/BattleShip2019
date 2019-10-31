@@ -44,6 +44,11 @@ public enum GameState
 	Discovering,
 
 	/// <summary>
+	/// The time is out.
+	/// </summary>
+	TimeOut,
+
+	/// <summary>
 	/// One player has won, showing the victory screen
 	/// </summary>
 	EndingGame,

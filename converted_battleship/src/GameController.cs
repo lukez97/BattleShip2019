@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
+using System.Diagnostics.Contracts;
 
 /// <summary>
 /// The GameController is responsible for controlling the game,
@@ -76,6 +77,9 @@ public static class GameController
 
 		//create the players
 		switch (_aiSetting) {
+			//case AIOption.Easy:
+			//_ai = new AIEasyPlay(_theGame);
+			//break;
 			case AIOption.Medium:
 				_ai = new AIMediumPlayer(_theGame);
 				break;
@@ -375,6 +379,11 @@ public static class GameController
 	public static void SetDifficulty(AIOption setting)
 	{
 		_aiSetting = setting;
+	}
+
+	public static AIOption getDiffuculty()
+	{
+		return _aiSetting;
 	}
 
 }

@@ -4,22 +4,23 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\HighScoreController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\DiscoveryController.cs">
     <Files>
       <File FileName="src\EndingGameController.cs" Line="37" Column="41" />
-      <File FileName="src\DeploymentController.cs" Line="93" Column="16" />
+      <File FileName="src\DeploymentController.cs" Line="89" Column="16" />
       <File FileName="src\GameLogic.cs" Line="9" Column="23" />
-      <File FileName="src\GameResources.cs" Line="57" Column="18" />
-      <File FileName="src\UtilityFunctions.cs" Line="234" Column="37" />
-      <File FileName="src\MenuController.cs" Line="215" Column="5" />
-      <File FileName="src\DiscoveryController.cs" Line="67" Column="47" />
-      <File FileName="src\GameController.cs" Line="153" Column="3" />
+      <File FileName="src\GameResources.cs" Line="43" Column="15" />
+      <File FileName="src\UtilityFunctions.cs" Line="263" Column="41" />
+      <File FileName="src\MenuController.cs" Line="308" Column="33" />
+      <File FileName="src\DiscoveryController.cs" Line="81" Column="54" />
+      <File FileName="src\GameController.cs" Line="385" Column="3" />
       <File FileName="src\Model\AIPlayer.cs" Line="144" Column="58" />
       <File FileName="src\Model\AIOption.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIHardPlayer.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIMediumPlayer.cs" Line="32" Column="2" />
-      <File FileName="src\GameState.cs" Line="1" Column="1" />
-      <File FileName="src\HighScoreController.cs" Line="107" Column="24" />
+      <File FileName="src\GameState.cs" Line="47" Column="17" />
+      <File FileName="src\HighScoreController.cs" Line="122" Column="29" />
+      <File FileName="src\Model\Player.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />
