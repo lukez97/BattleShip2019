@@ -19,7 +19,7 @@
       <File FileName="src\Model\AIHardPlayer.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIMediumPlayer.cs" Line="32" Column="2" />
       <File FileName="src\GameState.cs" Line="1" Column="1" />
-      <File FileName="src\HighScoreController.cs" Line="181" Column="99" />
+      <File FileName="src\HighScoreController.cs" Line="107" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />
