@@ -7,14 +7,14 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="src\DiscoveryController.cs">
     <Files>
       <File FileName="src\EndingGameController.cs" Line="37" Column="41" />
-      <File FileName="src\DeploymentController.cs" Line="89" Column="16" />
+      <File FileName="src\DeploymentController.cs" Line="138" Column="10" />
       <File FileName="src\GameLogic.cs" Line="9" Column="23" />
-      <File FileName="src\GameResources.cs" Line="43" Column="15" />
-      <File FileName="src\UtilityFunctions.cs" Line="263" Column="41" />
-      <File FileName="src\MenuController.cs" Line="308" Column="33" />
-      <File FileName="src\DiscoveryController.cs" Line="81" Column="54" />
-      <File FileName="src\GameController.cs" Line="385" Column="3" />
-      <File FileName="src\Model\AIPlayer.cs" Line="144" Column="58" />
+      <File FileName="src\GameResources.cs" Line="20" Column="15" />
+      <File FileName="src\UtilityFunctions.cs" Line="311" Column="28" />
+      <File FileName="src\MenuController.cs" Line="299" Column="16" />
+      <File FileName="src\DiscoveryController.cs" Line="88" Column="36" />
+      <File FileName="src\GameController.cs" Line="40" Column="39" />
+      <File FileName="src\Model\AIPlayer.cs" Line="130" Column="3" />
       <File FileName="src\Model\AIOption.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIHardPlayer.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIMediumPlayer.cs" Line="32" Column="2" />
