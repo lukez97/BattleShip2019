@@ -4,7 +4,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\MenuController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\HighScoreController.cs">
     <Files>
       <File FileName="src\EndingGameController.cs" Line="37" Column="41" />
       <File FileName="src\DeploymentController.cs" Line="138" Column="10" />
@@ -19,7 +19,7 @@
       <File FileName="src\Model\AIHardPlayer.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIMediumPlayer.cs" Line="32" Column="2" />
       <File FileName="src\GameState.cs" Line="47" Column="17" />
-      <File FileName="src\HighScoreController.cs" Line="122" Column="29" />
+      <File FileName="src\HighScoreController.cs" Line="202" Column="4" />
       <File FileName="src\Model\Player.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIEasyPlayer.cs" Line="83" Column="1" />
     </Files>
