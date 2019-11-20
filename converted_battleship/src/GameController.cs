@@ -333,6 +333,9 @@ public static class GameController
 			case GameState.ViewingHighScores:
 				HighScoreController.HandleHighScoreInput();
 				break;
+			case GameState.ViewingInstruction: 
+				InstructionController.HandleInstructInput ();
+				break;
 		}
 
 		UtilityFunctions.UpdateAnimations();
@@ -377,6 +380,9 @@ public static class GameController
 			case GameState.ViewingHighScores:
 				HighScoreController.DrawHighScores();
 				SwinGame.StopTimer (Timer);
+				break;
+			case GameState.ViewingInstruction:
+				InstructionController.DrawInstruction ();
 				break;
 		}
 

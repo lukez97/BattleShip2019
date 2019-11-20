@@ -77,9 +77,8 @@ static class DiscoveryController
 		SwinGame.DrawText(GameController.HumanPlayer.Hits.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, HITS_TOP);
 		SwinGame.DrawText(GameController.HumanPlayer.Missed.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SPLASH_TOP);
 		SwinGame.DrawText ("Duration: " + (GameController.TimerS ()), Color.White, GameResources.GameFont ("Menu"), SCORES_LEFT-70, TIMER_TOP);
-
 		SwinGame.DrawText ("Diffuculty: "+ ( GameController.getDiffuculty().ToString()), Color.White, GameResources.GameFont ("Menu"), SCORES_LEFT-70, TIMER_TOP+20);
-	}
+	}	
 
 }
 

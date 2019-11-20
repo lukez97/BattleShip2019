@@ -1,0 +1,9 @@
+- After ships are all deployed. Game is ready to begin.
+
+- Players much take turn firing shots by calling out grid coordinates.
+
+- Red peg on hit coordinate.
+
+- White peg on miss coordinate.
+
+- First to destroy all ships will be declared as Winner.

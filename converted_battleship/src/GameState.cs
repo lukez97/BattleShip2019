@@ -36,6 +36,10 @@ public enum GameState
 	/// <summary>
 	/// Players are deploying their ships
 	/// </summary>
+	ViewingInstruction,
+	/// <summary>
+	/// The player is viewing the instruction
+	/// </summary>
 	Deploying,
 
 	/// <summary>
