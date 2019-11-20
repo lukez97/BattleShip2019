@@ -125,6 +125,7 @@ static class HighScoreController
 		if (_Scores.Count == 0)
 			LoadScores();
 
+
 		SwinGame.DrawText("   High Scores   ", Color.BlanchedAlmond, GameResources.GameFont("hey"), SCORES_LEFT+137, SCORES_HEADING);
 
 		//For all of the scores
@@ -165,6 +166,7 @@ static class HighScoreController
 	{
 		const int ENTRY_TOP = 500;
 
+
 		if (_Scores.Count == 0)
 			LoadScores();
 
@@ -203,6 +205,48 @@ static class HighScoreController
 
 			GameController.EndCurrentState();
 		}
+	}
+	public static void reNewScore ()
+	{
+		string fn = null;
+		fn = SwinGame.PathToResource ("newhighscores.txt");
+
+		StreamReader ipt = default (StreamReader);
+		ipt = new StreamReader (fn);
+
+		//Read in the # of scores
+		int numScores = 0;
+		numScores = Convert.ToInt32 (ipt.ReadLine ());
+
+		List<Score> scr = new List<Score> ();
+
+		int i = 0;
+
+		for (i = 1; i <= numScores; i++) {
+			Score s = default (Score);
+
+			string line = null;
+
+			line = ipt.ReadLine ();
+			s.Name = line.Substring (0, NAME_WIDTH);
+			s.Value = Convert.ToInt32 (line.Substring (NAME_WIDTH));
+			scr.Add (s);
+		}
+		ipt.Close ();
+
+		string ofn = null;
+		ofn = SwinGame.PathToResource ("highscores.txt");
+
+		StreamWriter opt = default (StreamWriter);
+		opt = new StreamWriter (ofn);
+
+		opt.WriteLine (scr.Count);
+
+		foreach (Score s in scr) {
+			opt.WriteLine (s.Name + s.Value);
+		}
+
+		opt.Close ();
 	}
 }
 
