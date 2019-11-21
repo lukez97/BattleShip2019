@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using SwinGameSDK;
 
-static class InstructionController
+public static class InstructionController
 {
 	private const int INSTRUCTION_LEFT = 0;
 

@@ -123,6 +123,7 @@ static class HighScoreController
 		const int SCORE_GAP = 30;
 
 		if (_Scores.Count == 0)
+			//reNewScore ();
 			LoadScores();
 
 

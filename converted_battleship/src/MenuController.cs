@@ -27,6 +27,7 @@ static class MenuController
 			"PLAY",
 			"SETUP",
 			"SCORES",
+			"GUIDE",
 			"QUIT"
 		},
 		new string[] {
@@ -56,8 +57,9 @@ static class MenuController
 	private const int MAIN_MENU_PLAY_BUTTON = 0;
 	private const int MAIN_MENU_SETUP_BUTTON = 1;
 	private const int MAIN_MENU_TOP_SCORES_BUTTON = 2;
+	private const int MAIN_MENU_GUIDE_BUTTON = 3;
 
-	private const int MAIN_MENU_QUIT_BUTTON = 3;
+	private const int MAIN_MENU_QUIT_BUTTON = 4;
 	private const int SETUP_MENU_EASY_BUTTON = 0;
 	private const int SETUP_MENU_MEDIUM_BUTTON = 1;
 	private const int SETUP_MENU_HARD_BUTTON = 2;
@@ -287,6 +289,9 @@ static class MenuController
 			case MAIN_MENU_TOP_SCORES_BUTTON:
 				GameController.AddNewState(GameState.ViewingHighScores);
 				//sound here
+				break;
+			case MAIN_MENU_GUIDE_BUTTON:
+				GameController.AddNewState (GameState.ReNewHighScore);
 				break;
 			case MAIN_MENU_QUIT_BUTTON:
 				GameController.EndCurrentState();

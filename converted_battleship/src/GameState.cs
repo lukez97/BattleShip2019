@@ -29,6 +29,11 @@ public enum GameState
 	ViewingHighScores,
 
 	/// <summary>
+	/// The re new high score.
+	/// </summary>
+	ReNewHighScore,
+
+	/// <summary>
 	/// The player is altering the game settings
 	/// </summary>
 	AlteringSettings,

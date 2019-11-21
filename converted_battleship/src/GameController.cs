@@ -331,6 +331,7 @@ public static class GameController
 				EndingGameController.HandleEndOfGameInput();
 				break;
 			case GameState.ViewingHighScores:
+			case GameState.ReNewHighScore:
 				HighScoreController.HandleHighScoreInput();
 				break;
 			case GameState.ViewingInstruction: 
@@ -375,7 +376,6 @@ public static class GameController
 				break;
 			case GameState.EndingGame:
 				EndingGameController.DrawEndOfGame();
-
 				break;
 			case GameState.ViewingHighScores:
 				HighScoreController.DrawHighScores();
@@ -383,6 +383,11 @@ public static class GameController
 				break;
 			case GameState.ViewingInstruction:
 				InstructionController.DrawInstruction ();
+				break;
+			case GameState.ReNewHighScore:
+				HighScoreController.reNewScore ();
+				HighScoreController.DrawHighScores ();
+				SwinGame.StopTimer (Timer);
 				break;
 		}
 
