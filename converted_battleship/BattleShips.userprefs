@@ -4,7 +4,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\GameController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTest.cs">
     <Files>
       <File FileName="src\EndingGameController.cs" Line="37" Column="41" />
       <File FileName="src\DeploymentController.cs" Line="12" Column="8" />
@@ -13,7 +13,7 @@
       <File FileName="src\UtilityFunctions.cs" Line="311" Column="23" />
       <File FileName="src\MenuController.cs" Line="341" Column="11" />
       <File FileName="src\DiscoveryController.cs" Line="60" Column="3" />
-      <File FileName="src\GameController.cs" Line="275" Column="31" />
+      <File FileName="src\GameController.cs" Line="112" Column="23" />
       <File FileName="src\Model\AIPlayer.cs" Line="130" Column="3" />
       <File FileName="src\Model\AIOption.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIHardPlayer.cs" Line="1" Column="1" />
@@ -23,6 +23,8 @@
       <File FileName="src\Model\Player.cs" Line="1" Column="1" />
       <File FileName="src\Model\AIEasyPlayer.cs" Line="83" Column="1" />
       <File FileName="src\InstructionController.cs" Line="18" Column="2" />
+      <File FileName="src\UnitTest.cs" Line="1" Column="1" />
+      <File FileName="UnitTest.cs" Line="2" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />
