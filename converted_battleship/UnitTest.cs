@@ -58,5 +58,23 @@ namespace BattleShips
 			Assert.IsTrue (s.AllDeployed);
 		}
 
+		//Gabriel Chang Tze Ming
+		[Test ()]
+		public void TestBattleship ()
+		{
+			ShipName selectedBattleship = ShipName.Destroyer;
+			ShipName bsselect = default (ShipName);
+
+			if (bsselect == ShipName.None) 
+			{
+				selectedBattleship = bsselect;
+			}
+
+			Assert.AreEqual (bsselect, selectedBattleship);
+			                              
+		}
+
+
+
 	}
 }

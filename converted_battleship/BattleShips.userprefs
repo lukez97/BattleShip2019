@@ -24,21 +24,8 @@
       <File FileName="src\Model\AIEasyPlayer.cs" Line="83" Column="1" />
       <File FileName="src\InstructionController.cs" Line="18" Column="2" />
       <File FileName="src\UnitTest.cs" Line="1" Column="1" />
-      <File FileName="UnitTest.cs" Line="62" Column="2" />
+      <File FileName="UnitTest.cs" Line="63" Column="3" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="BattleShips" expanded="True" selected="True">
-            <Node name="BattleShips" expanded="True">
-              <Node name="BattleShips" expanded="True">
-                <Node name="UnitTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
