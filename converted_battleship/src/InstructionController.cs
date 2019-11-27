@@ -65,14 +65,15 @@ public static class InstructionController
 			else
 				SwinGame.DrawText (s.name, Color.White, GameResources.GameFont ("Instruction"), INSTRUCTION_LEFT, INSTRUCTION_TOP + i * INSTRUCTION_GAP);
 		}
-	
+
+		SwinGame.DrawText ("Press ESC Key to Go to Menu", Color.Azure, GameResources.GameFont ("Instruction"), 270, 350);
 	}
 
 
 	public static void HandleInstructInput ()
 	{
 		if (SwinGame.MouseClicked (MouseButton.LeftButton) || SwinGame.KeyTyped (KeyCode.vk_ESCAPE) || SwinGame.KeyTyped (KeyCode.vk_RETURN)) {
-			GameController.SwitchState (GameState.ViewingMainMenu);
+			GameController.SwitchState(GameState.ViewingMainMenu);
 		} 
 	}
 }

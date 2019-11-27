@@ -291,7 +291,7 @@ static class MenuController
 				//sound here
 				break;
 			case MAIN_MENU_GUIDE_BUTTON:
-				GameController.AddNewState (GameState.ReNewHighScore);
+				GameController.SwitchState(GameState.ViewingInstruction);
 				break;
 			case MAIN_MENU_QUIT_BUTTON:
 				GameController.EndCurrentState();
